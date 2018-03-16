@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background: #2ecc71;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 30px;
+}
+
+.menu__item a {
+    font-size: 18px;
+    color: #fefefe;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    border-bottom: 3px solid #fefefe;
+}
+
+.about {
+    background-color: #2ecc71;
+}
+
+.icon_1 {
+    margin-top: 205px;
+}
+
+.offer {
+    margin-top: 66px;
+}
+
+.offer__title {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.offer__text {
+    font-size: 18px;
+    color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.icons__item {
+    margin-right: 28px;
+    margin-top: 60px;
+}
+
+.icons__item:hover {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.iphone {
+    margin-top: 90px;
+    width: 100%;
+}
+
+.info {
+    background: #ffffff;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.phone__image {
+    width: 100%;
+}
+
+.main__title {
+    font-size: 46px;
+    color: #5a5a5a;
+}
+
+.main__title__color {
+    color: #2ecc71;
+}
+
+.main__text {
+    color: #5a5a5a;
+    margin-top: 26px;
+    line-height: 28px;
+}
+
+.diet {
+    background: #f9f9f9;
+}
+
+.title__main {
+    margin-top: 110px;
+    font-size: 48px;
+    color: #5a5a5a;
+    margin-bottom: 30px;
+}
+
+.title__text {
+    color: #9a9a9a;
+    margin-bottom: 110px;
+}
+
+.food {
+    margin-top: 150px;
+    margin-bottom: 140px;
+}
+
+.food__block__item {
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer {
+    background: #2ecc71;
+}
+
+.foot__main {
+    color: #ffffff;
+    font-size: 48px;
+    margin-top: 110px;
+    margin-bottom: 36px;
+}
+
+.foot__text {
+    color: #e3f8ec;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.btn {
+    margin-bottom: 100px;
+    color: #2ecc71;
+    border-radius: 20px;
+    width: 240px;
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .biger {
+        width: 100%;
+    }
+}
