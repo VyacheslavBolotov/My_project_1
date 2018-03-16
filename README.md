@@ -1,2 +1,2 @@
-# My_project_1
-Landing page 1
+# My_projects
+Два примера Landing page.
